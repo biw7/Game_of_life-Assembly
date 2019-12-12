@@ -1,17 +1,22 @@
-# Game_of_life-Assembly
-An implementantion of Conway's Game of Life(B3/S23) in Assembly
+# Game_of_life-Assembly<br>
+An implementantion of Conway's Game of Life(B3/S23) in Assembly<br>
+<br>
+Programa em Assembly para a disciplina Organizacao de Computadores.<br>
+<br>
+
+Variacao classica do jogo da vida.<br>
+<br><br>
 
 
-msn_desc1: string "Variacao classica do jogo da vida."
-msn_desc2:string"Uma celula nasce se tiver 3 vizinhos"
-msn_desc3: string "Sobrevive se tiver 2 ou 3 vizinhos"
-Metodo aplicado: ABORDAGEM EGOCENTRICA
-"Conta a soma de 9 vizinhos"
-"Se soma = 3, o campo central vive"
-"Se soma = 4, o campo central mantem seu estado atual"
+Uma celula nasce se tiver 3 vizinhos<br>
+Sobrevive se tiver 2 ou 3 vizinhos<br>
+Metodo aplicado: ABORDAGEM EGOCENTRICA<br>
+"Conta a soma de 9 vizinhos"<br>
+"Se soma = 3, o campo central vive"<br>
+"Se soma = 4, o campo central mantem seu estado atual"<br>
+<br>
+<br>
+execute(linux):<br>
 
-
-execute(linux):
-
-  make all
-  make run
+  make all<br>
+  make run<br>
